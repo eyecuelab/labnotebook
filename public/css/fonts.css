@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Lulo';
+    src: url('public/fonts/lulo-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Tolyer';
+    src: url('public/fonts/tolyer-book-no4.ttf');
+}
+
+@font-face {
+    font-family: 'Tolyer Bold';
+    src: url('public/fonts/tolyer-bold-no4.ttf');
+}
