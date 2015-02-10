@@ -303,11 +303,11 @@ div.author {
     max-width: 46rem;
   }
 }
-
+/*
 .content {
   margin-top: 3rem;
 }
-
+*/
 
 /*
 * Back Button
@@ -317,7 +317,7 @@ div.author {
 
 .back-button {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 1rem;
   background-image: url("/public/images/arrow-left.png");
@@ -421,6 +421,7 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   border-radius: 4px;
   cursor: pointer;
+  z-index: 20;
 }
 .sidebar-toggle:before {
   display: block;
@@ -504,6 +505,7 @@ a.sidebar-nav-item:focus {
 .wrap {
   position: relative;
   width: 100%;
+  margin-top: 3rem;
 }
 
 
