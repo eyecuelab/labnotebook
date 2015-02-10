@@ -2,14 +2,13 @@
 
 The official weblog for EyeCue Lab
 
-# Colophon
+## Colophon
 
 The EyeCue Lab Notebook runs on [Jekyll](http://jekyllrb.com/). It is bootstrapped from the [Lanyon](http://github.com/poole/lanyon) template made by [@mdo](http://twitter.com/mdo).
 
-=======
-# How To
+## How To
 
-## Make a new post
+### Make a new post
 
 Make a new text file whose file name matches the following format:
 
@@ -27,6 +26,7 @@ title: Hello world!
 author: rick
 author2: nicci
 author3: paul
+p-category: Product & Design
 ---
 
 Hello! This is a sample post for the EyeCue Lab Notebook. 
@@ -35,18 +35,20 @@ Hello! This is a sample post for the EyeCue Lab Notebook.
 
 Replace the `title:` and `author:` attributes in the top section with the post title and author names. Posts can have up to three authors. If you have fewer authors, you can remove the `author2` and `author3` lines.
 
+Replace the `p-category:` attribute with the post category. This text is displayed above each post.
+
 Type the content of your post below the title/author section. Use [Markdown syntax](https://help.github.com/articles/markdown-basics/) to format your post.
 
 Save your file into the `_posts/` directory. Add and commit your changes to the git repository, then push to `eyecuelab/labnotebook`.
 
-## Add a new user to the system
+### Add a new user to the system
 
 - Upload the user's avatar image to `/public/images/team`. Make the image 170x170 px and grayscale
 - Add the user's information to the `_data/authors.yml` file
 
-# Development Log
+## Development Log
 
-## To Do
+### To Do
 
 - **GitHub Pages Configuration**
   - need an `eyecuelab/eyecuelab.github.io` repo with CNAME `eyecuelab.com` 
