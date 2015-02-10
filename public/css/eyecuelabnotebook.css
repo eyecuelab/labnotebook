@@ -308,6 +308,26 @@ div.author {
   margin-top: 3rem;
 }
 
+
+/*
+* Back Button
+*
+* Show the back button when viewing a post
+*/
+
+.back-button {
+  display: block;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-image: url("/public/images/arrow-left.png");
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border: 2px solid #505050;
+}
+
 /*
  * Sidebar
  *
