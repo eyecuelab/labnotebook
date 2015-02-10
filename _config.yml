@@ -10,17 +10,10 @@ relative_permalinks: true
 
 # Setup
 title:               EyeCue Lab Notebook
-tagline:             ''
 description:         'EyeCue Lab is an agile software development firm. We build engaging solutions to complex problems.'
 url:                 http://blog.eyecuelab.com
 baseurl:             /
 paginate:            5
-
-# About/contact
-author:
-  name:              EyeCue Lab
-  url:               http://eyecuelab.com
-  email:             hello@eyecuelab.com
 
 # Custom vars
 version:             1.0.0
