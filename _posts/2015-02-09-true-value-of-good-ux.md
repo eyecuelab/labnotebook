@@ -3,6 +3,7 @@
 layout: post
 title: The True Value of a Good UX
 author: rick
+p-category: Product & Design
 
 ---
 

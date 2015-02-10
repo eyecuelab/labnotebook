@@ -9,6 +9,7 @@
 }
 
 @font-face {
-    font-family: 'Tolyer Bold';
+    font-family: 'Tolyer';
     src: url('public/fonts/tolyer-bold-no4.ttf');
+    font-weight: bold;
 }
