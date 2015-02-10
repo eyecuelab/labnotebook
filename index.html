@@ -15,6 +15,8 @@ title: Home
     <!-- Content --> 
     {{ post.content | truncatewords: 100 }}
 
+    <p><a href="{{ post.url }}">Read more</a></p>
+
     <!-- Authors -->
     {% assign author = site.data.authors[post.author] %}
     {% assign author2 = site.data.authors[post.author2] %}
