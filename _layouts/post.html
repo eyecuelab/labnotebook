@@ -14,29 +14,31 @@ layout: default
   {% assign author3 = site.data.authors[page.author3] %}
   <div class="post-authors">
   {% if author %}
-    <span>
+    <!-- Each author is wrapped in a div.author so they will display as inline-blocks -->
+    <div class="author">
       <img class="author-avatar" src="/public/images/team/{{ author.avatar }}">
       <h3 class="post-author">{{ author.name }}</h3>
       <a href="mailto:{{ author.email }}">{{ author.email }}<br>
       <a href="http://twitter.com/{{ author.twitter }}" target="_blank">@{{ author.twitter }}</a><br>
-    </span>
+    </div>
   {% endif %}
   {% if author2 %}
-    <span>
+    <!-- Each author is wrapped in a div.author so they will display as inline-blocks -->
+    <div class="author">
       <img class="author-avatar" src="/public/images/team/{{ author2.avatar }}">
       <h3 class="post-author2">{{ author2.name }}</h3>
       <a href="mailto:{{ author2.email }}">{{ author2.email }}<br>
       <a href="http://twitter.com/{{ author2.twitter }}" target="_blank">@{{ author2.twitter }}</a><br>
-    </span>
+    </div>
   {% endif %}
   {% if author3 %}
-    <span>
+    <!-- Each author is wrapped in a div.author so they will display as inline-blocks -->
+    <div class="author">
       <img class="author-avatar" src="/public/images/team/{{ author3.avatar }}">
       <h3 class="post-author3">{{ author3.name }}</h3>
       <a href="mailto:{{ author3.email }}">{{ author3.email }}<br>
       <a href="http://twitter.com/{{ author3.twitter }}" target="_blank">@{{ author3.twitter }}</a><br>
-    </span>
+    </div>
   {% endif %}
-
 
 </div>

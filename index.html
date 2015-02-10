@@ -21,25 +21,20 @@ title: Home
     {% assign author3 = site.data.authors[post.author3] %}
 
     <div class="post-authors">
-    {% if author %}
       <span>
-        <img class="author-avatar" alt="{{ author.name }}" src="/public/images/team/{{ author.avatar }}">
-      </span>
-    {% endif %}
+        {% if author %}
+          <img class="author-avatar" alt="{{ author.name }}" src="/public/images/team/{{ author.avatar }}">
+        {% endif %}
 
-    {% if author2 %}
-      <span>
-        <img class="author-avatar" alt="{{ author2.name }}" src="/public/images/team/{{ author2.avatar }}">
-      </span>
-    {% endif %}
+        {% if author2 %}
+          <img class="author-avatar" alt="{{ author2.name }}" src="/public/images/team/{{ author2.avatar }}">
+        {% endif %}
 
-    {% if author3 %}
-      <span>
-        <img class="author-avatar" alt="{{ author3.name }}" src="/public/images/team/{{ author3.avatar }}">
+        {% if author3 %}
+          <img class="author-avatar" alt="{{ author3.name }}" src="/public/images/team/{{ author3.avatar }}">
+        {% endif %}
       </span>
-    {% endif %}
     </div>
-
     <hr>
   </div>
   {% endfor %}
