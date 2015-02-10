@@ -3,35 +3,40 @@ layout: default
 ---
 
 <div class="post">
+  <h3 class="post-category">{{ page.p-category }}</h3>
   <h1 class="post-title">{{ page.title }}</h1>
-  <!-- <span class="post-date">{{ page.date | date_to_string }}</span> -->
   <hr>
-
+  <!-- Content -->
   {{ content }}
-
-  <!-- Look up author details from the site configuration -->
+  <!-- Authors -->
   {% assign author = site.data.authors[page.author] %}
-  <!-- Look up author details for multiple authors -->
   {% assign author2 = site.data.authors[page.author2] %}
   {% assign author3 = site.data.authors[page.author3] %}
-
-  <!-- Output author details if they exist -->
+  <div class="post-authors">
   {% if author %}
-      <span>
-        <img src="/public/images/team/{{ author.avatar }}"><br>
-        {{ author.name }}<br>
-        <a href="mailto:{{ author.email }}">{{ author.email }}<br>
-        <a href="http://twitter.com/{{ author.twitter }}" target="_blank">@{{ author.twitter }}</a><br>
-      </span>
+    <span>
+      <img class="author-avatar" src="/public/images/team/{{ author.avatar }}">
+      <h3 class="post-author">{{ author.name }}</h3>
+      <a href="mailto:{{ author.email }}">{{ author.email }}<br>
+      <a href="http://twitter.com/{{ author.twitter }}" target="_blank">@{{ author.twitter }}</a><br>
+    </span>
+  {% endif %}
+  {% if author2 %}
+    <span>
+      <img class="author-avatar" src="/public/images/team/{{ author2.avatar }}">
+      <h3 class="post-author2">{{ author2.name }}</h3>
+      <a href="mailto:{{ author2.email }}">{{ author2.email }}<br>
+      <a href="http://twitter.com/{{ author2.twitter }}" target="_blank">@{{ author2.twitter }}</a><br>
+    </span>
+  {% endif %}
+  {% if author3 %}
+    <span>
+      <img class="author-avatar" src="/public/images/team/{{ author3.avatar }}">
+      <h3 class="post-author3">{{ author3.name }}</h3>
+      <a href="mailto:{{ author3.email }}">{{ author3.email }}<br>
+      <a href="http://twitter.com/{{ author3.twitter }}" target="_blank">@{{ author3.twitter }}</a><br>
+    </span>
   {% endif %}
 
-  {% if author2 %}
-      <span>
-        <img src="/public/images/team/{{ author2.avatar }}"><br>
-        {{ author2.name }}<br>
-        <a href="mailto:{{ author2.email }}">{{ author2.email }}<br>
-        <a href="http://twitter.com/{{ author2.twitter }}" target="_blank">@{{ author2.twitter }}</a><br>
-      </span>
-  {% endif %}
 
 </div>

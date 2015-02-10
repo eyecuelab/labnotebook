@@ -12,8 +12,33 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
+    <!-- Content --> 
     {{ post.content | truncatewords: 100 }}
+
+    <!-- Authors -->
+    {% assign author = site.data.authors[post.author] %}
+    {% assign author2 = site.data.authors[post.author2] %}
+    {% assign author3 = site.data.authors[post.author3] %}
+
+    <div class="post-authors">
+    {% if author %}
+      <span>
+        <img class="author-avatar" alt="{{ author.name }}" src="/public/images/team/{{ author.avatar }}">
+      </span>
+    {% endif %}
+
+    {% if author2 %}
+      <span>
+        <img class="author-avatar" alt="{{ author2.name }}" src="/public/images/team/{{ author2.avatar }}">
+      </span>
+    {% endif %}
+
+    {% if author3 %}
+      <span>
+        <img class="author-avatar" alt="{{ author3.name }}" src="/public/images/team/{{ author3.avatar }}">
+      </span>
+    {% endif %}
+    </div>
 
     <hr>
   </div>
