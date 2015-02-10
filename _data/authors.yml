@@ -13,3 +13,28 @@ paul:
     email: paul.walker@eyecuelab.com
     twitter: eyecuelab
     avatar: paul.gif
+keith:
+    name: Keith Burgess
+    email: keith.burgess@eyecuelab.com
+    twitter: eyecuelab
+    avatar: keith.gif
+sasha:
+    name: Sasha Shamne
+    email: sasha.shamne@eyecuelab.com
+    twitter: eyecuelab
+    avatar: sasha.gif
+chan: 
+    name: Chan Park
+    email: chan.park@eyecuelab.com
+    twitter: eyecuelab
+    avatar: chan.gif
+matthew:
+    name: Matthew Williams
+    email: matthew.williams@eyecuelab.com
+    twitter: eyecuelab
+    avatar: matthew.gif
+andrew:
+    name: Andrew Westling
+    email: andrew.westling@eyecuelab.com
+    twitter: andwest
+    avatar: andrew.gif
