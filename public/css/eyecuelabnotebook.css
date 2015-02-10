@@ -92,7 +92,6 @@ h3 {
 h3.post-author, h3.post-category {
   text-align: center;
   margin-bottom: 0;
-  line-height: 1.25;
 }
 
 /* Body Text */
@@ -305,41 +304,8 @@ div.author {
   }
 }
 
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-  text-align: left;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
-}
-
-@media (max-width: 48em) {
-  .masthead-title {
-    text-align: center;
-  }
-  .masthead-title small {
-    display: none;
-  }
+.content {
+  margin-top: 3rem;
 }
 
 /*
@@ -366,7 +332,7 @@ div.author {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
