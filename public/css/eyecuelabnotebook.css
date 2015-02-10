@@ -322,10 +322,18 @@ div.author {
   right: 1rem;
   background-image: url("/public/images/arrow-left.png");
   background-size: contain;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
   border: 2px solid #505050;
+}
+
+@media (min-width: 56em) {
+  .back-button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+  }
 }
 
 /*
