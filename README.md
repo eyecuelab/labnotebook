@@ -64,6 +64,28 @@ git pull --rebase origin gh-pages
 git push origin gh-pages
 ```
 
+### Include images in your Post
+
+Here's an example: your image's file name is `kitten.jpg`.
+
+First, copy `kitten.jpg` into the `/public/images/posts/` directory.
+
+Next, copy this syntax into the post where you want to include the image:
+
+```
+![An Adorable Kitten]({{ site.baseurl }}public/images/posts/kitten.jpg)
+```
+
+Don't forget to add and commit the image to the repository before you push to the `gh-pages` branch:
+
+```
+git add public/images/posts/kitten.jpg
+git add _posts/2015-02-09-your-post-here.md
+git commit -m "add a new post"
+git pull --rebase origin gh-pages
+git push origin gh-pages
+```
+
 ### Add a new user to the system
 
 - Upload the user's avatar image to `/public/images/team`. Make the image 170x170 px and grayscale
@@ -76,6 +98,4 @@ git push origin gh-pages
 - **Comment System**
   - set up eyecuelab Disqus account
   - integrate: [link](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions)
-- **EyeCue Lab Logos/Staff Images**
-  - get EyeCue Lab logos(+inverted) for sidebar toggle button
 
