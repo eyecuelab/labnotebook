@@ -1,16 +1,11 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="http://eyecuelab.com/#discovery">Protocols</a>
-    <a class="sidebar-nav-item" href="http://eyecuelab.com/#clients">Clients</a>
-    <a class="sidebar-nav-item" href="http://eyecuelab.com/#team">Staff</a>
-    <a class="sidebar-nav-item" href="http://eyecuelab.com/#contact">Contact</a>
-    <a class="sidebar-nav-item active" href="{{ site.baseurl }}">Notebook</a>
-  </nav>
-
+{% include nav-scripts.html %}
+<div id="nav">
+   {% include eyecue-logo-svg.html %}
+   <ul>
+     <li><a href="http://eyecuelab.com/#discovery">Protocols</a></li>
+     <li><a href="http://eyecuelab.com/#clients">Clients</a></li>
+     <li><a href="http://eyecuelab.com/#team">Staff</a></li>
+     <li><a href="http://eyecuelab.com/#contact">Contact</a></li>
+     <li class="active"><a href="{{ site.baseurl }}">Notebook</li>
+   </ul>
 </div>
