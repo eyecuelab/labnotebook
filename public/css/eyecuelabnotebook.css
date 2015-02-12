@@ -37,7 +37,7 @@
 html {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 14pt;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -49,7 +49,7 @@ body {
 
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 1rem;
   }
 }
 
@@ -82,7 +82,7 @@ h1 {
 
 /* Post Titles */
 h1.post-title {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -93,7 +93,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-family: "Tolyer", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
