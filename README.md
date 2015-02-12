@@ -16,7 +16,7 @@ Comments are powered by [Disqus](https://disqus.com).
 
 ## How To
 
-Below are instructions to our staff for performing common tasks.
+Below are instructions for our staff to perform common tasks.
 
 ### Write a new post
 
@@ -26,8 +26,8 @@ Open your favorite plaintext editor and make a new file whose name matches this 
 
 `/_posts/YYYY-MM-DD-hello-world.md`
 
-- replace `YYYY-MM-DD` with the post date
-- replace `hello-world` with the URL slug you want for your post (*example: ht<span>tp:</span>//blog.eyecuelab.com/2015/02/09/**hello-world**.html*)
+- Replace `YYYY-MM-DD` with the post date.  
+- Replace `hello-world` with a web-friendly title for your post. This will become part of the web address once your post is published.
 
 Include this block at the top of your post:
 
@@ -54,9 +54,9 @@ Replace the `p-category` attribute with the post category. This text is displaye
 
 Type your post below the Front Matter block. Follow the Markdown [syntax guide](https://help.github.com/articles/markdown-basics/).
 
-### Publish a post to the web
+## Publish a post to the web
 
-Use git to clone the `eyecuelab/labnotebook` repository and switch to the `gh-pages` branch:
+Use Git to clone the `eyecuelab/labnotebook` repository and switch to the `gh-pages` branch:
 
 
 ```
@@ -68,14 +68,14 @@ git branch gh-pages
 
 Copy your post into the `_posts/` directory.
 
-Add and commit your new post to the git repository. 
+Add and commit your new post to the Git repository. 
 
 ```
 git add _posts/2015-02-09-hello-world.md
 git commit -m "add a new post"
 ```
 
-Use git to push your changes to the `gh-pages` branch of `eyecuelab/labnotebook`:
+Use Git to push your changes to the `gh-pages` branch of `eyecuelab/labnotebook`:
 
 
 ```
@@ -85,20 +85,20 @@ git push origin gh-pages
 
 ### Include images in your Post
 
-You have an image called `eyecue-logo.jpg`.
+You have an image called `eyecue-logo.png`.
 
-First, copy `eyecue-logo.jpg` into the `/public/images/posts/` directory.
+First, copy `eyecue-logo.png` into the `/public/images/posts/` directory.
 
 Next, use [Markdown's image syntax](http://daringfireball.net/projects/markdown/syntax#img) to include the image in your post:
 
 ```
-![EyeCue Logo]({{ site.baseurl }}public/images/posts/eyecue-logo.jpg)
+![EyeCue Logo]({{ site.baseurl }}public/images/posts/eyecue-logo.png)
 ```
 
 Don't forget to add and commit the image to the repository before you push to the `gh-pages` branch:
 
 ```
-git add public/images/posts/eyecue-logo.jpg
+git add public/images/posts/eyecue-logo.png
 git add _posts/2015-02-09-your-post-here.md
 git commit -m "add a new post"
 git pull --rebase origin gh-pages
@@ -119,7 +119,7 @@ andrew:
     avatar: andrew.gif
 ```
 
-Use git to commit, rebase, and push your changes to the `gh-pages` branch.
+Use Git to commit, rebase, and push your changes to the `gh-pages` branch.
 
 ## Meta
 
