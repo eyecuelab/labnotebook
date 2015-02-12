@@ -382,6 +382,7 @@ div.author {
 }
 
 #nav li {
+  text-align: center;
   font-family: 'Lulo', Helvetica, Arial, sans-serif;
   font-weight: bold;
   opacity: .6;
