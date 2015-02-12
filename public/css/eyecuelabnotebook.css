@@ -147,9 +147,16 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+ul, ol, li {
+  margin: auto;
+  width: 95%;
+  text-align: left;
+}
+
 /* Code */
 code,
 pre {
+  text-align: left;
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
@@ -212,6 +219,7 @@ pre code {
 
 /* Quotes */
 blockquote {
+  text-align: left;
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
