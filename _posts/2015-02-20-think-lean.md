@@ -2,7 +2,7 @@
 layout: post
 title: "Think Lean: An Enterprise Mobile Experience"
 author: rick
-p-category: Mobile
+p-category: Product
 comments: true
 ---
 
