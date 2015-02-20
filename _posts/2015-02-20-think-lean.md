@@ -6,6 +6,8 @@ p-category: Product
 comments: true
 ---
 
+[![Think Lean]({{ site.postimage }}think-lean-banner-image.jpg)]({{ site.baseurl }}2015/02/20/think-lean/)
+
 Nearly everybody designs their website with responsiveness in mind. When it comes to mobile support, people no longer wonder about responsive design vs. native app support. The real question is: when it comes to building a native mobile experience, how does one decide what features to include? Just to clarify, there are applications within certain categories (e.g. games, social media, etc.) that clearly should be mobile-centric (duh), which are not the applications I am talking about here. For the purpose of this discussion, let's focus on the B2B or B2C enterprise solutions that see native mobile experience as a strategic way to increase user adoption and retention. 
 
 First, some context. The EyeCue team recently built a native mobile application that (for the sake or brevity) functions like a job portal. It supports two types of personas: job seekers and employers. The client had a limited budget, but their initial intuition was to mimic everything that the desktop has to offer. I mean, why would you leave any one of these two core personas out?
