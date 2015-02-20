@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Think Lean\: An Enterprise Mobile Experience
+title: "Think Lean: An Enterprise Mobile Experience"
 author: rick
 p-category: Mobile
 comments: true
