@@ -13,6 +13,7 @@ title:               EyeCue Lab Notebook
 description:         'EyeCue Lab is an agile software development firm. We build engaging solutions to complex problems.'
 url:                 http://blog.eyecuelab.com
 baseurl:             /
+postimage:           /public/images/posts/
 paginate:            5
 
 # Custom vars

@@ -92,7 +92,7 @@ First, copy `eyecue-logo.png` into the `/public/images/posts/` directory.
 Next, use [Markdown's image syntax](http://daringfireball.net/projects/markdown/syntax#img) to include the image in your post:
 
 ```
-![EyeCue Logo]({{ site.baseurl }}public/images/posts/eyecue-logo.png)
+![EyeCue Logo]({{ site.postimage }}eyecue-logo.png)
 ```
 
 Don't forget to add and commit the image to the repository before you push to the `gh-pages` branch:
