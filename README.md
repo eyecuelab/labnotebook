@@ -20,16 +20,10 @@ Below are instructions for our staff to perform common tasks.
 
 ### Write a new post
 
-Posts are written in [Markdown](http://daringfireball.net/projects/markdown/syntax). 
+Open your favorite plaintext editor and just start writing.
 
-Open your favorite plaintext editor and make a new file whose name matches this format:
+Copy this block to the top of the post:
 
-`/_posts/YYYY-MM-DD-hello-world.md`
-
-- Replace `YYYY-MM-DD` with the post date.  
-- Replace `hello-world` with a web-friendly title for your post. This will become part of the web address once your post is published.
-
-Include this block at the top of your post:
 
 ```
 ---
@@ -42,7 +36,7 @@ author3: paul
 p-category: Product & Design
 ---
 
-(type your post here)
+(your post content goes here)
 
 ```
 
@@ -53,6 +47,13 @@ Replace the `title` and `author` attributes with the post title and author name.
 Replace the `p-category` attribute with the post category. This text is displayed above each post.
 
 Type your post below the Front Matter block. Follow the Markdown [syntax guide](https://help.github.com/articles/markdown-basics/).
+
+Save the post with this naming convention:
+
+`YYYY-MM-DD-hello-world.md`
+
+- Replace `YYYY-MM-DD` with the post date.
+- Replace `hello-world` with a web-friendly title for your post. This will become part of the web address once your post is published.
 
 ## Publish a post to the web
 
@@ -68,7 +69,7 @@ git branch gh-pages
 
 Copy your post into the `_posts/` directory.
 
-Add and commit your new post to the Git repository. 
+Add and commit your new post to the Git repository.
 
 ```
 git add _posts/2015-02-09-hello-world.md
