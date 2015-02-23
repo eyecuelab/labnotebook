@@ -36,7 +36,7 @@ If you have any familiarity with Photoshop, you're probably used to having guide
 #4. JSON Viewer 
 [![EyeCue Lab]({{ site.postimage }}jsonviewer.png)](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 
-Not to be confused with the similarly named ""JSON View" extension, [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) displays all your json request pages into a nice tidy, nested format. Multiple color schemes and options are available that give this extension an edge over comparable ones. Absolutely crucial even if you work with JSON on the rare occasion.  
+Not to be confused with the similarly named "JSON View" extension, [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) displays all your JSON request pages into a nice tidy, nested format. Multiple color schemes and options are available that give this extension an edge over comparable ones. Absolutely crucial even if you work with JSON on the rare occasion.  
 
   <br>
 #5. Live Reload 
