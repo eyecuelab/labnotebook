@@ -6,7 +6,6 @@ author: matthew
 p-category: Front-End Development
 ---
 
-# 5 ESSENTIAL EXTENSIONS FOR YOUR CHROME TOOLBELT
 ![EyeCue Lab]({{ site.postimage }}toolbelt.png)
 
 
