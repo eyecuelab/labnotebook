@@ -10,9 +10,9 @@ p-category: Back End Development
 ![EyeCue Lab]({{ site.postimage }}smarteru.jpg)
 
 
-Just released a Ruby wrapper for the SmarterU API that we have used on one of our Rails projects. Allows performing operations within a SmarterU account. This library constructs the xml post request with credentials and your json input parameters, makes an API call and returns a json after parsing the xml response.
+I just released a Ruby wrapper for the SmarterU API recently used on an EyeCue Rails project, which allows the performance of operations within a SmarterU account. This library constructs the XML post request with credentials and your JSON input parameters, makes an API call and returns a JSON after parsing the XML response.
 
-SmarterU is online training platform with a bunch of learning management features from e-learning course creator to SCORM compliance to executive dashboards and reporting.
+SmarterU is an online training platform with a bunch of learning management features; from e-learning course creator to SCORM compliance to executive dashboards and reporting.
 
 <br>
 ### Basic ruby library usage
@@ -26,7 +26,7 @@ Instantiate a client with your SmarterU credentials. You can get it [here](http:
     require 'smarteru'
     client = Smarteru::Client.new(account_api_key: "ACCOUNT_API_KEY", user_api_key: "USER_API_KEY")
 
-Make api calls. You can find a list of API endpoints [here](http://help.smarteru.com/)
+Make API calls. You can find a list of API endpoints [here](http://help.smarteru.com/)
 
     response = client.request('getGroup', {group: {name: 'MyGroup'}})
     response.result =>
